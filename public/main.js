@@ -42,6 +42,7 @@ function removeCartItem(event){
     buttonClicked.parentElement.remove();
    updatetotal();
    saveCartItems();
+    updateCartIcon ();
 }
 
 
